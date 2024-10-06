@@ -1,0 +1,32 @@
+.search-bar {
+  width: 400px; /* Adjust width as needed */
+  padding: 10px;
+  border: 2px solid #6abd45; /* Fresh green border (matches button color from site theme) */
+  border-radius: 25px 25px 25px 25px; /* Rounded left corners */
+  font-size: 16px;
+  outline: none; /* Remove default outline */
+  transition: all 0.3s ease; /* Smooth transition for focus effect */
+}
+.search-bar:focus {
+  border-color: #ff8c42; /* Orange border on focus */
+}
+.search-button {
+  background-color: #6abd45; /* Fresh green button (from site theme) */
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 25px 25px 0; /* Rounded right corners */
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+.search-button:hover {
+  background-color: #5aa13d; /* Slightly darker green on hover */
+}
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

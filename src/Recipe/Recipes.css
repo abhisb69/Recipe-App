@@ -1,0 +1,15 @@
+h1 {
+  color: #ff6347;
+  align-content: center;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+.RecipeCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
